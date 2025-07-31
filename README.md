@@ -50,18 +50,61 @@ The dataset contains **32,000+ Spotify tracks** with:
 
 ## 🚀 How to Run
 
-### 1. Extract the project ZIP file
+### 1. Extract the ZIP File
 
-Unzip the downloaded folder: 
+Unzip the downloaded project folder:
+```
+AI.zip
+```
 
-### 3. Launch the Streamlit App
+---
+
+### 2. Open the Notebook
+
+Open the project folder in any Python environment (for example: **Jupyter Notebook** or **VS Code**).  
+Then open and review the file:
+```
+Spotify Song Recommender.ipynb
+```
+
+---
+
+### 3. Install Required Libraries
+
+Install the necessary packages if not already installed:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn streamlit
+```
+
+---
+
+### 4. Run the Notebook
+
+In Jupyter Notebook, click **"Run All Cells"** to execute and visualize all steps in the project:
+- Data preprocessing
+- Correlation matrix
+- Clustering
+- PCA visualization
+
+---
+
+### 5. Launch the Streamlit App
+
+Open a terminal or command prompt, then navigate to your project folder:
+
+```bash
+cd path/to/your/project/folder
+```
+
+Now run the Streamlit application:
 
 ```bash
 streamlit run app.py
 ```
 
-> This will open the app in your browser (usually at `http://localhost:8501`)
-
+> The app will open in your browser at:  
+> `http://localhost:8501`
 
 ---
 
@@ -86,7 +129,7 @@ streamlit run app.py
 
 **Akrit Kumar**  
 B.Tech CSE (AI/ML) – Lovely Professional University  
-[GitHub](https://github.com/Akrit099) 
+[GitHub](https://github.com/Akrit099)
 
 ---
 
